@@ -1,0 +1,65 @@
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Compressed files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Model checkpoints and large files
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+
+# Data directories (optional - uncomment if you don't want to track datasets)
+dataset/
+# data/
+
+# Experiment outputs
+exps/exps/*/
+logs/
+models/
+
+# Temporary files
+.log
+*.tmp
+*.swp
+*.swo
+content/CardiacSegV2/
